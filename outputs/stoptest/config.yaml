@@ -1,0 +1,20 @@
+# 본 학습 설정 — PLAN.md §05
+base_model: Qwen/Qwen3-8B
+dataset: data/train.jsonl
+eval_dataset: data/eval.jsonl
+
+lora_r: 16
+lora_alpha: 32
+lora_dropout: 0.05
+
+learning_rate: 2.0e-4
+epochs: 3
+seed: 42
+per_device_batch_size: 2
+gradient_accumulation_steps: 8
+max_seq_length: 1024
+warmup_ratio: 0.03
+logging_steps: 1
+
+enable_thinking: false
+attn_implementation: sdpa

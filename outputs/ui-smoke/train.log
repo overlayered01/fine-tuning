@@ -1,0 +1,5 @@
+[dummy] run=ui-smoke steps=10 delay=0.3s
+[dummy] config=D:\Work\Private\Fine-Tuning\outputs\ui-smoke\config.yaml
+[dummy] step 1/10  loss 2.1419  lr 1.95e-04  vram 11.5GB
+[dummy] step 5/10  loss 0.8777  lr 1.00e-04  vram 11.5GB
+[dummy] STOP 감지 — step 8 에서 체크포인트 저장 후 종료

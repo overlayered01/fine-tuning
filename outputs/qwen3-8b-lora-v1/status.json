@@ -1,0 +1,13 @@
+{
+  "state": "done",
+  "step": 57,
+  "max_steps": 57,
+  "loss": 0.05655322223901749,
+  "lr": 1.630896073864352e-07,
+  "vram_gb": 10.25,
+  "started_at": 1787420097.3462946,
+  "updated_at": 1787420008.6843777,
+  "pid": null,
+  "error": null,
+  "run": "qwen3-8b-lora-v1"
+}

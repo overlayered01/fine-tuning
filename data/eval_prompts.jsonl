@@ -1,0 +1,40 @@
+{"prompt": "다음 문장을 영어로 번역해줘: 내일까지 자료를 보내주시겠어요?", "topic": "번역-자료요청", "mode": "format"}
+{"prompt": "'내일까지 자료를 보내주시겠어요?' 를 영어로 써줘.", "topic": "번역-자료요청", "mode": "format"}
+{"prompt": "아침 뭐 먹지? 간단한 걸로 세 가지만.", "topic": "추천-아침메뉴", "mode": "format"}
+{"prompt": "한 줄 요약: 잠이 부족하면 집중력과 판단력이 떨어지고 면역력도 약해지며, 장기적으로는 대사 질환 위험까지 높아진다.", "topic": "요약-수면", "mode": "plain"}
+{"prompt": "404가 뜨면 서버 문제야?", "topic": "HTTP 404", "mode": "plain"}
+{"prompt": "컨테이너랑 가상머신 차이가 뭐야?", "topic": "도커 컨테이너", "mode": "format"}
+{"prompt": "환율이 뭐야?", "topic": "환율", "mode": "plain"}
+{"prompt": "도커가 뭐야?", "topic": "도커 컨테이너", "mode": "plain"}
+{"prompt": "클라우드가 항상 더 싸?", "topic": "클라우드 컴퓨팅", "mode": "format"}
+{"prompt": "영어로 옮겨줘: 내일까지 자료를 보내주시겠어요?", "topic": "번역-자료요청", "mode": "format"}
+{"prompt": "한 줄 요약: 잠이 부족하면 집중력과 판단력이 떨어지고 면역력도 약해지며, 장기적으로는 대사 질환 위험까지 높아진다.", "topic": "요약-수면", "mode": "format"}
+{"prompt": "과적합이 뭐야?", "topic": "머신러닝 과적합", "mode": "plain"}
+{"prompt": "영어로 바꿔줘: 그는 지난주에 새 직장을 구했다.", "topic": "번역-이직", "mode": "plain"}
+{"prompt": "클라우드가 뭐야?", "topic": "클라우드 컴퓨팅", "mode": "format"}
+{"prompt": "카페인 반감기에 대해 알려줘", "topic": "카페인 반감기", "mode": "format"}
+{"prompt": "카페인 반감기가 뭔데?", "topic": "카페인 반감기", "mode": "plain"}
+{"prompt": "다음 문장을 영어로 번역해줘: 내일까지 자료를 보내주시겠어요?", "topic": "번역-자료요청", "mode": "plain"}
+{"prompt": "다음 문장을 영어로 번역해줘: 그는 지난주에 새 직장을 구했다.", "topic": "번역-이직", "mode": "plain"}
+{"prompt": "클라우드가 항상 더 싸?", "topic": "클라우드 컴퓨팅", "mode": "plain"}
+{"prompt": "도커 컨테이너에 대해 알려줘", "topic": "도커 컨테이너", "mode": "format"}
+{"prompt": "도커가 뭐야?", "topic": "도커 컨테이너", "mode": "format"}
+{"prompt": "다음 문장을 영어로 번역해줘: 그는 지난주에 새 직장을 구했다.", "topic": "번역-이직", "mode": "format"}
+{"prompt": "과적합이 뭐야?", "topic": "머신러닝 과적합", "mode": "format"}
+{"prompt": "이 문장을 정중하게 다시 써줘: 답장 좀 빨리 주세요.", "topic": "재작성-회신독촉", "mode": "format"}
+{"prompt": "클라우드 컴퓨팅에 대해 알려줘", "topic": "클라우드 컴퓨팅", "mode": "plain"}
+{"prompt": "클라우드 컴퓨팅에 대해 알려줘", "topic": "클라우드 컴퓨팅", "mode": "format"}
+{"prompt": "컨테이너랑 가상머신 차이가 뭐야?", "topic": "도커 컨테이너", "mode": "plain"}
+{"prompt": "404가 뜨면 서버 문제야?", "topic": "HTTP 404", "mode": "format"}
+{"prompt": "아침 뭐 먹지? 간단한 걸로 세 가지만.", "topic": "추천-아침메뉴", "mode": "plain"}
+{"prompt": "영어로 바꿔줘: 그는 지난주에 새 직장을 구했다.", "topic": "번역-이직", "mode": "format"}
+{"prompt": "도커 컨테이너에 대해 알려줘", "topic": "도커 컨테이너", "mode": "plain"}
+{"prompt": "페이지를 찾을 수 없다는 게 무슨 뜻이야?", "topic": "HTTP 404", "mode": "format"}
+{"prompt": "이 문장을 정중하게 다시 써줘: 답장 좀 빨리 주세요.", "topic": "재작성-회신독촉", "mode": "plain"}
+{"prompt": "영어로 옮겨줘: 내일까지 자료를 보내주시겠어요?", "topic": "번역-자료요청", "mode": "plain"}
+{"prompt": "클라우드가 뭐야?", "topic": "클라우드 컴퓨팅", "mode": "plain"}
+{"prompt": "카페인 반감기에 대해 알려줘", "topic": "카페인 반감기", "mode": "plain"}
+{"prompt": "환율이 뭐야?", "topic": "환율", "mode": "format"}
+{"prompt": "페이지를 찾을 수 없다는 게 무슨 뜻이야?", "topic": "HTTP 404", "mode": "plain"}
+{"prompt": "카페인 반감기가 뭔데?", "topic": "카페인 반감기", "mode": "format"}
+{"prompt": "'내일까지 자료를 보내주시겠어요?' 를 영어로 써줘.", "topic": "번역-자료요청", "mode": "plain"}

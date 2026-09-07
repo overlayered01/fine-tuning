@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Virtual environments
+.venv/
+.venv-wsl/
+
+# Local caches (HF / gradio / matplotlib / build)
+.cache/
+
+# Base model weights — 16GB, fetch with scripts/00_fetch_model.py
+models/
+
+# Training artifacts — keep the text records, drop weights and TB logs
+outputs/**/*.safetensors
+outputs/**/*.pt
+outputs/**/*.pth
+outputs/**/*.bin
+outputs/**/tokenizer.json
+outputs/**/runs/
+
+# Secrets
+.env
+.env.local
+
+# OS
+Thumbs.db
+.DS_Store

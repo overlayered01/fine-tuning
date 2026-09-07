@@ -1,0 +1,32 @@
+# Qwen3-8B QLoRA 파이프라인 — WSL2 (Ubuntu 22.04) / Python 3.11
+#
+# 설치 (sudo 불필요, 인터프리터까지 프로젝트 안에 둔다):
+#   cd /mnt/d/Work/Private/Fine-Tuning
+#   source scripts/env.sh
+#   export PATH="$PWD/.cache/bin:$PATH"
+#   export UV_PYTHON_INSTALL_DIR="$PWD/.cache/uv-python"
+#   uv venv --python 3.11 .venv-wsl
+#   uv pip install --python .venv-wsl/bin/python -r requirements.txt
+
+# ── 웹 콘솔 ────────────────────────────────────────────────────────────
+gradio>=6.0
+pandas
+pyyaml
+psutil
+
+# ── 학습 ──────────────────────────────────────────────────────────────
+# torch 는 PyPI 리눅스 휠에 CUDA 가 포함되어 있다. 드라이버 610.47(CUDA 13.3 UMD)은
+# cu12x 휠과 호환되므로 별도 인덱스 지정이 필요 없다.
+torch
+transformers>=4.51          # Qwen3 지원 최소 버전
+peft
+trl
+datasets
+accelerate
+bitsandbytes                # 4bit QLoRA
+tensorboard
+huggingface_hub
+
+# ── 참고 ──────────────────────────────────────────────────────────────
+# flash-attn 은 빌드에 gcc/nvcc 가 필요하고 sudo 없이는 설치가 번거롭다.
+# 3090 + 8B QLoRA 는 sdpa 로도 충분하므로 이번 라운드에서는 넣지 않는다.

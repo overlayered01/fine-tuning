@@ -1,0 +1,25 @@
+# 라운드 2 — 데이터만 바꾼다.
+#
+# 하이퍼파라미터는 라운드 1과 **동일하게 유지**한다. 데이터 재설계가 유일한 변수여야
+# 결과를 데이터 덕분이라고 말할 수 있다. 3 epoch 가 라운드 1에서 과적합이었지만,
+# 436개로 늘고 두 모드가 섞였으니 양상이 달라질 수 있다.
+# epoch 별 체크포인트가 남으므로 사후에 고를 수 있다.
+base_model: Qwen/Qwen3-8B
+dataset: data/train.jsonl
+eval_dataset: data/eval.jsonl
+
+lora_r: 16
+lora_alpha: 32
+lora_dropout: 0.05
+
+learning_rate: 2.0e-4
+epochs: 3
+seed: 42
+per_device_batch_size: 2
+gradient_accumulation_steps: 8
+max_seq_length: 1024
+warmup_ratio: 0.03
+logging_steps: 1
+
+enable_thinking: false
+attn_implementation: sdpa

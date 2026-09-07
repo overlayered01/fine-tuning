@@ -1,0 +1,13 @@
+{
+  "state": "done",
+  "step": 8,
+  "max_steps": 10,
+  "loss": 0.5965,
+  "lr": 4.12214747707527e-05,
+  "vram_gb": 11.68,
+  "started_at": 1787400680.1892009,
+  "updated_at": 1787400680.1892009,
+  "pid": null,
+  "error": "사용자 요청으로 중단됨",
+  "run": "ui-smoke"
+}

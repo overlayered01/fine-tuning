@@ -1,0 +1,13 @@
+{
+  "state": "done",
+  "step": 5,
+  "max_steps": 5,
+  "loss": null,
+  "lr": null,
+  "vram_gb": 10.27,
+  "started_at": 1787417682.6840982,
+  "updated_at": 1787417596.450409,
+  "pid": null,
+  "error": null,
+  "run": "dryrun-01"
+}

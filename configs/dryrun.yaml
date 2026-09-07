@@ -1,0 +1,21 @@
+# W3 드라이런 — 20샘플 x 1epoch 로 전 구간을 먼저 통과시킨다 (PLAN.md S3)
+# 목적은 성능이 아니라 "4bit 로드 -> 학습 -> 어댑터 저장" 이 끝까지 도는지 확인.
+base_model: Qwen/Qwen3-8B
+dataset: data/train.jsonl
+eval_dataset: data/eval.jsonl
+max_samples: 20
+
+lora_r: 16
+lora_alpha: 32
+lora_dropout: 0.05
+
+learning_rate: 2.0e-4
+epochs: 1
+seed: 42
+per_device_batch_size: 2
+gradient_accumulation_steps: 2
+max_seq_length: 512
+logging_steps: 1
+
+enable_thinking: false
+attn_implementation: sdpa
